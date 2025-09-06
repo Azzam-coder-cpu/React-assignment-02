@@ -31,7 +31,7 @@ function Home() {
     },
     {
       id: 3,
-      title: "",
+      title: "Multi-step form",
       img: "",
       github: "",
       live: "",
