@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 import "./Home.css";
-import image from './todo.png'
+import image from "../../assets/todo.png"
 
 type Project = {
   id: number;
