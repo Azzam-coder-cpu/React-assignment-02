@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router";
 import Home from "../components/Home/Home";
 import Todo from "../components/Todo/Todo";
+import Form from "../components/StepperForm";
+
 
 const router = createBrowserRouter([
   {
@@ -17,7 +19,7 @@ const router = createBrowserRouter([
 },
 {
     path: "/form",
-    element: <Home />
+    element: <Form />
 }
 
 ]);

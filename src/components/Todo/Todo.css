@@ -4,21 +4,17 @@ html, body, #root {
   width: 100%;
 }
 
-.todo-label {
-    justify-content: center;
-    display: flex;
-}
-
 .todo-wrapper {
   display: flex;
-  justify-content: center;  /* horizontal */
-  align-items: center;      /* vertical */
-  min-height: 100vh;        /* full screen height */
-  background: #f1f5f9;      /* optional light bg */
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  min-height: 100vh;         /* full screen background */
+  background: #f1f5f9;       /* light background */
 }
 
 .todo-container {
-  max-width: 500px;
+  max-width: 500px;          /* fixed app size */
+  width: 100%;               /* responsive inside */
   padding: 2rem;
   background-color: #f8fafc;
   border-radius: 8px;

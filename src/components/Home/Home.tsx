@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
 import "./Home.css";
-import image from "../../assets/todo.png"
-
+import image1 from "../../assets/todo.PNG"
+import image2 from '../../assets/multiStepperForm.JPG'
 type Project = {
   id: number;
   title: string;
@@ -16,7 +16,7 @@ function Home() {
     {
       id: 1,
       title: "Todo App",
-      img: image,
+      img: image1,
       github: "https://github.com/Azzam-coder-cpu/Todo-app.git",
       live: "https://beautiful-cannoli-e264d4.netlify.app/",
       path: "/todo",
@@ -32,9 +32,9 @@ function Home() {
     {
       id: 3,
       title: "Multi-step form",
-      img: "",
-      github: "",
-      live: "",
+      img: image2,
+      github: "https://github.com/Azzam-coder-cpu/multiStepperForm.git",
+      live: "https://sparkling-fenglisu-b81771.netlify.app/",
       path: "/form",
     },
   ];
