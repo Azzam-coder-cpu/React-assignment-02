@@ -1,11 +1,18 @@
 .home {
+  min-height: 100vh;        /* full screen height */
+  width: 100%;              /* full width */
   padding: 2rem;
   text-align: center;
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  background: #f1f5f9;      /* light background (optional) */
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
@@ -14,6 +21,8 @@
   gap: 1.5rem;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px; /* keeps cards centered */
 }
 
 .card {

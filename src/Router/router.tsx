@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import Home from "../components/Home/Home";
 import Todo from "../components/Todo/Todo";
 import Form from "../components/StepperForm";
+import Quiz from "../components/Quiz";
 
 
 const router = createBrowserRouter([
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/quiz",
-    element: <Home />
+    element: <Quiz />
 },
 {
     path: "/form",

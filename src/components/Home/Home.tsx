@@ -1,7 +1,8 @@
 import { NavLink } from "react-router";
 import "./Home.css";
-import image1 from "../../assets/todo.PNG"
-import image2 from '../../assets/multiStepperForm.JPG'
+import image1 from "../../assets/todoImg.PNG"
+import image2 from '../../assets/multiStepperFormImg.JPG'
+import image3 from '../../assets/quizImg.JPG'
 type Project = {
   id: number;
   title: string;
@@ -24,9 +25,9 @@ function Home() {
     {
       id: 2,
       title: "Quiz App",
-      img: "",
-      github: "",
-      live: "",
+      img: image3,
+      github: "https://github.com/Azzam-coder-cpu/Quiz-App-react-.git",
+      live: "https://grand-swan-6d4274.netlify.app/",
       path: "/quiz",
     },
     {
